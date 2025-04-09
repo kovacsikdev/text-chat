@@ -37,12 +37,13 @@ function App() {
 
   // Initialize socket connection
   useEffect(() => {
-    const newSocket = io('http://localhost:3001')
-    setSocket(newSocket)
+    const endpoint = import.meta.env.VITE_PROD_ENDPOINT || import.meta.env.VITE_DEV_ENDPOINT;
+    const newSocket = io(endpoint);
+    setSocket(newSocket);
 
     return () => {
-      newSocket.disconnect()
-    }
+      newSocket.disconnect();
+    };
   }, [])
 
   // Set up socket event listeners
