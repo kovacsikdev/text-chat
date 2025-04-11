@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Text Chat App',
-        short_name: 'TextChat',
+        name: 'Kovacsik Text Chat App',
+        short_name: 'Kovacsik TextChat',
         description: 'A real-time text chat application by Michael Kovacsik',
         lang: "en-US",
         theme_color: '#ffffff',
