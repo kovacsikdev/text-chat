@@ -4,7 +4,7 @@
   "description": "A real-time text chat application",
   "lang": "en-US",
   "author": "Michael Kovacsik",
-  "start_url": "/",
+  "start_url": "/text-chat/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
