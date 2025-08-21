@@ -154,8 +154,8 @@ const ChatRoom = ({
                       '&:after': {
                         content: '""',
                         position: 'absolute',
-                        top: 0,
-                        [isOwnMessage ? 'right' : 'left']: -8,
+                        top: 6,
+                        [isOwnMessage ? 'right' : 'left']: -6,
                         width: 0,
                         height: 0,
                         borderTop: '8px solid transparent',
